@@ -27,7 +27,7 @@ GitLab supports the following databases:
     mysql> \q
 
     # Try connecting to the new database with the new user
-    sudo -u git -H mysql -u gitlab -p -D gitlabhq_production
+    mysql -u git -H mysql -u gitlab -p -D gitlabhq_production
 
 ## PostgreSQL
 
